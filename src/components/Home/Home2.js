@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/loni.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -65,9 +65,23 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+        <Tilt>
+  <img
+    src={myImg}
+    alt="avatar"
+    className="img-fluid rounded-circle"
+    style={{
+      width: "200px",
+      height: "200px",
+      objectFit: "cover",
+      border: "3px solid #9d20a4ff",
+      boxShadow: "0 4px 12px rgba(0, 0, 0, 0.25)",
+      margin: "auto",
+      display: "block",
+    }}
+  />
+</Tilt>
+
           </Col>
         </Row>
       </Container>

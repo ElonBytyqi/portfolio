@@ -9,3 +9,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
 }
+.experience-wrapper {
+  max-width: 1200px !important; /* kufizon gjerësinë */
+  margin: 0 auto;              /* qendon komponentin */
+  margin-top: 40px;
+  margin-bottom: 60px;
+}

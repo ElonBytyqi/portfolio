@@ -1,0 +1,22 @@
+.experience-wrapper {
+  max-width: 1200px !important; /* kufizon gjerësinë */
+  margin: 0 auto;              /* qendon komponentin */
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.experience-wrapper {
+  max-width: 1200px !important;
+  width: 100%;
+  margin: 40px auto 80px auto;
+  padding: 0 20px;            /* për spacing në anë */
+}
+
+.experience-card {
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  padding: 25px;
+  margin: 25px auto;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
