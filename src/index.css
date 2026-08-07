@@ -1,0 +1,117 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #09090b;
+}
+
+.maintenance-page {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px;
+
+  background:
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(124, 58, 237, 0.15),
+      transparent 35%
+    ),
+    #09090b;
+
+  color: #ffffff;
+}
+
+.maintenance-card {
+  width: 100%;
+  max-width: 900px;
+}
+
+.maintenance-status {
+  display: inline-block;
+
+  padding: 8px 16px;
+  margin-bottom: 30px;
+
+  border: 1px solid #27272a;
+  border-radius: 999px;
+
+  color: #a1a1aa;
+
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.maintenance-title {
+  margin: 0 0 30px;
+
+  color: #ffffff;
+
+  font-size: clamp(55px, 8vw, 100px);
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: -5px;
+}
+
+.maintenance-description {
+  max-width: 600px;
+
+  color: #a1a1aa;
+
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.maintenance-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  margin-top: 60px;
+}
+
+.maintenance-profile strong {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.maintenance-profile span {
+  color: #71717a;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .maintenance-page {
+    padding: 25px;
+  }
+
+  .maintenance-title {
+    font-size: 52px;
+    letter-spacing: -3px;
+  }
+
+  .maintenance-description {
+    font-size: 16px;
+  }
+}
